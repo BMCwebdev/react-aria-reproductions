@@ -1,0 +1,31 @@
+{
+  "checkedOn": "2026-10-05",
+  "sources": {
+    "tooltipIssue": "https://github.com/adobe/react-spectrum/issues/10496",
+    "tooltipPointerReport": "https://github.com/adobe/react-spectrum/issues/10496#issuecomment-5600274611",
+    "tooltipPullRequest": "https://github.com/adobe/react-spectrum/pull/10502",
+    "useMoveIssue": "https://github.com/adobe/react-spectrum/issues/10652",
+    "useMoveMaintainerResponse": "https://github.com/adobe/react-spectrum/issues/10652#issuecomment-5920842054"
+  },
+  "status": {
+    "10496": "open",
+    "10502": "open, unmerged",
+    "10652": "open, reproduction requested"
+  },
+  "npmLatest": {
+    "react": "19.3.0",
+    "react-aria": "3.52.1",
+    "react-aria-components": "1.21.1"
+  },
+  "baseline": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-aria": "3.51.0",
+    "react-aria-components": "1.20.0",
+    "react-stately": "3.49.0"
+  },
+  "host": {
+    "operatingSystem": "macOS 26.7",
+    "build": "25G229"
+  }
+}

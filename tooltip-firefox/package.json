@@ -1,0 +1,31 @@
+{
+  "name": "react-aria-tooltip-firefox-reproduction",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4174 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
+    "probe": "node scripts/probe.mjs",
+    "test": "pnpm build && ATTEMPTS=1 node scripts/probe.mjs firefox smoke"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-aria": "3.51.0",
+    "react-aria-components": "1.20.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.2",
+    "playwright-historical": "npm:playwright@1.59.1"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

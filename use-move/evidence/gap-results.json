@@ -1,0 +1,188 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "<project-root>/node_modules/@playwright/test/cli.js",
+      "test",
+      "-g",
+      "public end callbacks",
+      "--project",
+      "chromium"
+    ],
+    "configFile": "<project-root>/playwright.config.ts",
+    "rootDir": "<project-root>/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "<project-root>/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "<project-root>/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "<project-root>/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "<project-root>/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "evidence/gap-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 4173",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "use-move.spec.ts",
+      "file": "use-move.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "public end callbacks do not distinguish synthetic driving pointercancel from pointerup",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 999,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: not \u001b[32m{\"altKey\": false, \"callback\": \"onMoveEnd\", \"ctrlKey\": false, \"metaKey\": false, \"pointerType\": \"mouse\", \"shiftKey\": false, \"source\": \"useMove\", \"type\": \"moveend\"}\u001b[39m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: not \u001b[32m{\"altKey\": false, \"callback\": \"onMoveEnd\", \"ctrlKey\": false, \"metaKey\": false, \"pointerType\": \"mouse\", \"shiftKey\": false, \"source\": \"useMove\", \"type\": \"moveend\"}\u001b[39m\n\n    at <project-root>/tests/use-move.spec.ts:79:63",
+                    "location": {
+                      "file": "<project-root>/tests/use-move.spec.ts",
+                      "column": 63,
+                      "line": 79
+                    },
+                    "snippet": "  77 |   expect(cancelled.pointerType).toBe('mouse');\n  78 |   expect(cancelled.type).toBe('moveend');\n> 79 |   if (process.env.EXPECT_CANCEL_REASON) expect(cancelled).not.toEqual(released);\n     |                                                               ^\n  80 |   else expect(cancelled).toEqual(released);\n  81 | });\n  82 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "<project-root>/tests/use-move.spec.ts",
+                        "column": 63,
+                        "line": 79
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: not \u001b[32m{\"altKey\": false, \"callback\": \"onMoveEnd\", \"ctrlKey\": false, \"metaKey\": false, \"pointerType\": \"mouse\", \"shiftKey\": false, \"source\": \"useMove\", \"type\": \"moveend\"}\u001b[39m\n\n\n  77 |   expect(cancelled.pointerType).toBe('mouse');\n  78 |   expect(cancelled.type).toBe('moveend');\n> 79 |   if (process.env.EXPECT_CANCEL_REASON) expect(cancelled).not.toEqual(released);\n     |                                                               ^\n  80 |   else expect(cancelled).toEqual(released);\n  81 | });\n  82 |\n    at <project-root>/tests/use-move.spec.ts:79:63"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:34:17.965Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4yLjMiLCJyZWFjdC1kb20iOiIxOS4yLjMiLCJyZWFjdC1hcmlhIjoiMy41MS4wIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0OmdhcCIsInNvdXJjZVJldmlzaW9uIjoiU2VlIHJlcG9zaXRvcnkgc291cmNlIFNIQTI1NiBtYW5pZmVzdDsgY2FwdHVyZWQgYmVmb3JlIGNvbW1pdC4iLCJtYWluU291cmNlU2hhMjU2IjoiMzI5ZTYwN2Q2NGE0ZDUwMWJlMmE1ZWI5YjYxNTc2NDFlY2Q5N2JhYWNiZmZmNGY3NTA5MjZjNzUyZjRhODBkOCJ9"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "<project-root>/test-results/use-move-public-end-callba-d862a-ointercancel-from-pointerup-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmNhbmNlbFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "<project-root>/test-results/use-move-public-end-callba-d862a-ointercancel-from-pointerup-chromium/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "<project-root>/tests/use-move.spec.ts",
+                    "column": 63,
+                    "line": 79
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-e125e73e463101249db3",
+          "file": "use-move.spec.ts",
+          "line": 62,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-05T19:34:17.257Z",
+    "duration": 2053.83,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

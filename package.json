@@ -1,0 +1,10 @@
+{
+  "name": "react-aria-reproductions",
+  "private": true,
+  "packageManager": "pnpm@11.3.0",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "record-source": "node scripts/record-source.mjs"
+  }
+}

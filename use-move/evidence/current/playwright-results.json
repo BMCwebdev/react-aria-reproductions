@@ -1,0 +1,1200 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "<project-root>/node_modules/@playwright/test/cli.js",
+      "test"
+    ],
+    "configFile": "<project-root>/playwright.config.ts",
+    "rootDir": "<project-root>/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "<project-root>/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "<project-root>/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "<project-root>/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "<project-root>/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "evidence/playwright-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 4173",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "use-move.spec.ts",
+      "file": "use-move.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "trusted mouse release commits and native log identifies trusted input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 561,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:34:59.173Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjEsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0KICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-1def4daa3256709055c0",
+          "file": "use-move.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "visible scenario buttons expose raw cancellation and consumer rollback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 444,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:00.037Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmRvd25cIixcInBvaW50ZXJJZFwiOjIsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjpmYWxzZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOmZhbHNlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-dcd31a2be9470ede212b",
+          "file": "use-move.spec.ts",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "public end callbacks do not distinguish synthetic driving pointercancel from pointerup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 340,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:00.489Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmNhbmNlbFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-e125e73e463101249db3",
+          "file": "use-move.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "snapshot proposal resets on trusted Escape when no further movement occurs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 304,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:00.836Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJrZXlkb3duXCIsXCJrZXlcIjpcIkVzY2FwZVwiLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjEsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInBvbGljeSIsCiAgICAgICJhY3Rpb24iOiAic25hcHNob3QgcmVzZXQiLAogICAgICAicmVzdG9yZWQiOiAwCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0KICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-bbb5904db5d2afb79267",
+          "file": "use-move.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "snapshot proposal permits resumed trusted movement and release after Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 326,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:01.146Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJrZXlkb3duXCIsXCJrZXlcIjpcIkVzY2FwZVwiLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjEsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInBvbGljeSIsCiAgICAgICJhY3Rpb24iOiAic25hcHNob3QgcmVzZXQiLAogICAgICAicmVzdG9yZWQiOiAwCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlIiwKICAgICAgInR5cGUiOiAibW92ZSIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJkZWx0YVgiOiAzMCwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVFbmQiLAogICAgICAidHlwZSI6ICJtb3ZlZW5kIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfQogIF0KfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-fa67240387b09b322c6d",
+          "file": "use-move.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "consumer rollback suppresses trusted movement and commit after Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 375,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:01.479Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJrZXlkb3duXCIsXCJrZXlcIjpcIkVzY2FwZVwiLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjEsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInBvbGljeSIsCiAgICAgICJhY3Rpb24iOiAiZGlzY2FyZCIsCiAgICAgICJyZWFzb24iOiAiRXNjYXBlIiwKICAgICAgInJlc3RvcmVkIjogMAogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogMzAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0KICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-f81769dc00d2c1f6ae95",
+          "file": "use-move.spec.ts",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "consumer rollback rejects driving synthetic pointercancel without committing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 323,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:01.862Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmNhbmNlbFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJwb2xpY3kiLAogICAgICAiYWN0aW9uIjogImRpc2NhcmQiLAogICAgICAicmVhc29uIjogIm5hdGl2ZSBwb2ludGVyY2FuY2VsIiwKICAgICAgInJlc3RvcmVkIjogMAogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-4874e2c0b3d5e6d1603e",
+          "file": "use-move.spec.ts",
+          "line": 123,
+          "column": 1
+        },
+        {
+          "title": "raw: first synthetic pointer stays driver when second presses before movement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 337,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:02.192Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmRvd25cIixcInBvaW50ZXJJZFwiOjIsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjpmYWxzZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOmZhbHNlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-8f7a64dc84ed25ddf7c3",
+          "file": "use-move.spec.ts",
+          "line": 134,
+          "column": 3
+        },
+        {
+          "title": "rollback: first synthetic pointer stays driver when second presses before movement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 324,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:02.537Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmRvd25cIixcInBvaW50ZXJJZFwiOjIsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjpmYWxzZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOmZhbHNlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-2b2773a95697d017c3a0",
+          "file": "use-move.spec.ts",
+          "line": 134,
+          "column": 3
+        },
+        {
+          "title": "public pointerType identifies keyboard callbacks inside synthetic pointer drag",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 276,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:02.870Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwia2V5ZG93blwiLFwia2V5XCI6XCJBcnJvd1JpZ2h0XCIsXCJpc1RydXN0ZWRcIjp0cnVlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogImtleWJvYXJkIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAia2V5Ym9hcmQiLAogICAgICAiZGVsdGFYIjogMSwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVFbmQiLAogICAgICAidHlwZSI6ICJtb3ZlZW5kIiwKICAgICAgInBvaW50ZXJUeXBlIjogImtleWJvYXJkIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-1e921d0e8daf1ab5903a",
+          "file": "use-move.spec.ts",
+          "line": 150,
+          "column": 1
+        },
+        {
+          "title": "consumer rollback ignores keyboard update/end and preserves pointer ownership",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 289,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:03.156Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwia2V5ZG93blwiLFwia2V5XCI6XCJBcnJvd1JpZ2h0XCIsXCJpc1RydXN0ZWRcIjp0cnVlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJjYW5jZWxcIixcInBvaW50ZXJJZFwiOjEsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOi0xLFwiaXNUcnVzdGVkXCI6ZmFsc2V9IiwKICAiY2FsbGJhY2tzIjogWwogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlU3RhcnQiLAogICAgICAidHlwZSI6ICJtb3Zlc3RhcnQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlIiwKICAgICAgInR5cGUiOiAibW92ZSIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJkZWx0YVgiOiA2MCwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJrZXlib2FyZCIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogImtleWJvYXJkIiwKICAgICAgImRlbHRhWCI6IDEsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJrZXlib2FyZCIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDMwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJwb2xpY3kiLAogICAgICAiYWN0aW9uIjogImRpc2NhcmQiLAogICAgICAicmVhc29uIjogIm5hdGl2ZSBwb2ludGVyY2FuY2VsIiwKICAgICAgInJlc3RvcmVkIjogMAogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-13f7760871e65f5b4c3e",
+          "file": "use-move.spec.ts",
+          "line": 161,
+          "column": 1
+        },
+        {
+          "title": "Chromium protocol touchCancel produces a trusted native pointercancel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 293,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:03.453Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiY2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTUxLjAuNzkyMi4zNCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcInRvdWNoXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcInRvdWNoXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOnRydWV9IiwKICAiY2FsbGJhY2tzIjogWwogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlU3RhcnQiLAogICAgICAidHlwZSI6ICJtb3Zlc3RhcnQiLAogICAgICAicG9pbnRlclR5cGUiOiAidG91Y2giLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlIiwKICAgICAgInR5cGUiOiAibW92ZSIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJ0b3VjaCIsCiAgICAgICJkZWx0YVgiOiA2MCwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVFbmQiLAogICAgICAidHlwZSI6ICJtb3ZlZW5kIiwKICAgICAgInBvaW50ZXJUeXBlIjogInRvdWNoIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfQogIF0KfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-4026f081420fc6f68632",
+          "file": "use-move.spec.ts",
+          "line": 173,
+          "column": 1
+        },
+        {
+          "title": "trusted mouse release commits and native log identifies trusted input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1945,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:04.099Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjowLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjAsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0KICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-1bfa2fc3317e4a8be1d5",
+          "file": "use-move.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "visible scenario buttons expose raw cancellation and consumer rollback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1936,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:07.468Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmRvd25cIixcInBvaW50ZXJJZFwiOjIsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjpmYWxzZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOmZhbHNlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-3dbadd50c21f3748743f",
+          "file": "use-move.spec.ts",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "public end callbacks do not distinguish synthetic driving pointercancel from pointerup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1112,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:09.416Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmNhbmNlbFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-bb61acc4d244468c9a8c",
+          "file": "use-move.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "snapshot proposal resets on trusted Escape when no further movement occurs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 678,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:10.548Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjowLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJrZXlkb3duXCIsXCJrZXlcIjpcIkVzY2FwZVwiLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjAsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInBvbGljeSIsCiAgICAgICJhY3Rpb24iOiAic25hcHNob3QgcmVzZXQiLAogICAgICAicmVzdG9yZWQiOiAwCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0KICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-f7f27d12d73b4c8c42e0",
+          "file": "use-move.spec.ts",
+          "line": 83,
+          "column": 1
+        },
+        {
+          "title": "snapshot proposal permits resumed trusted movement and release after Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 520,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:11.235Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjowLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJrZXlkb3duXCIsXCJrZXlcIjpcIkVzY2FwZVwiLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjAsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInBvbGljeSIsCiAgICAgICJhY3Rpb24iOiAic25hcHNob3QgcmVzZXQiLAogICAgICAicmVzdG9yZWQiOiAwCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlIiwKICAgICAgInR5cGUiOiAibW92ZSIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJkZWx0YVgiOiAzMCwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVFbmQiLAogICAgICAidHlwZSI6ICJtb3ZlZW5kIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfQogIF0KfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-0c1827dc28c36f45be34",
+          "file": "use-move.spec.ts",
+          "line": 95,
+          "column": 1
+        },
+        {
+          "title": "consumer rollback suppresses trusted movement and commit after Escape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 691,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:11.775Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjowLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJrZXlkb3duXCIsXCJrZXlcIjpcIkVzY2FwZVwiLFwiaXNUcnVzdGVkXCI6dHJ1ZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVydXBcIixcInBvaW50ZXJJZFwiOjAsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjp0cnVlfSIsCiAgImNhbGxiYWNrcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogNjAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInBvbGljeSIsCiAgICAgICJhY3Rpb24iOiAiZGlzY2FyZCIsCiAgICAgICJyZWFzb24iOiAiRXNjYXBlIiwKICAgICAgInJlc3RvcmVkIjogMAogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAiZGVsdGFYIjogMzAsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0KICBdCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-6b8769e358e03d1f8e57",
+          "file": "use-move.spec.ts",
+          "line": 109,
+          "column": 1
+        },
+        {
+          "title": "consumer rollback rejects driving synthetic pointercancel without committing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 921,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:12.478Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmNhbmNlbFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJwb2xpY3kiLAogICAgICAiYWN0aW9uIjogImRpc2NhcmQiLAogICAgICAicmVhc29uIjogIm5hdGl2ZSBwb2ludGVyY2FuY2VsIiwKICAgICAgInJlc3RvcmVkIjogMAogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-25df1df72c8f4feca708",
+          "file": "use-move.spec.ts",
+          "line": 123,
+          "column": 1
+        },
+        {
+          "title": "raw: first synthetic pointer stays driver when second presses before movement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1505,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:13.426Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmRvd25cIixcInBvaW50ZXJJZFwiOjIsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjpmYWxzZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOmZhbHNlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-0cbff61bc4c5dd5cffdf",
+          "file": "use-move.spec.ts",
+          "line": 134,
+          "column": 3
+        },
+        {
+          "title": "rollback: first synthetic pointer stays driver when second presses before movement",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1772,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:14.951Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwicG9pbnRlcmRvd25cIixcInBvaW50ZXJJZFwiOjIsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOjAsXCJpc1RydXN0ZWRcIjpmYWxzZX1cbntcInNvdXJjZVwiOlwibmF0aXZlXCIsXCJ0eXBlXCI6XCJwb2ludGVyY2FuY2VsXCIsXCJwb2ludGVySWRcIjoyLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjotMSxcImlzVHJ1c3RlZFwiOmZhbHNlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-1943ec7fbe21006e9b0b",
+          "file": "use-move.spec.ts",
+          "line": 134,
+          "column": 3
+        },
+        {
+          "title": "public pointerType identifies keyboard callbacks inside synthetic pointer drag",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 999,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:16.735Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwia2V5ZG93blwiLFwia2V5XCI6XCJBcnJvd1JpZ2h0XCIsXCJpc1RydXN0ZWRcIjp0cnVlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJ1cFwiLFwicG9pbnRlcklkXCI6MSxcInBvaW50ZXJUeXBlXCI6XCJtb3VzZVwiLFwiYnV0dG9uXCI6LTEsXCJpc1RydXN0ZWRcIjpmYWxzZX0iLAogICJjYWxsYmFja3MiOiBbCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDYwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZVN0YXJ0IiwKICAgICAgInR5cGUiOiAibW92ZXN0YXJ0IiwKICAgICAgInBvaW50ZXJUeXBlIjogImtleWJvYXJkIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZSIsCiAgICAgICJ0eXBlIjogIm1vdmUiLAogICAgICAicG9pbnRlclR5cGUiOiAia2V5Ym9hcmQiLAogICAgICAiZGVsdGFYIjogMSwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVFbmQiLAogICAgICAidHlwZSI6ICJtb3ZlZW5kIiwKICAgICAgInBvaW50ZXJUeXBlIjogImtleWJvYXJkIiwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-51aa00513946a1e45edf",
+          "file": "use-move.spec.ts",
+          "line": 150,
+          "column": 1
+        },
+        {
+          "title": "consumer rollback ignores keyboard update/end and preserves pointer ownership",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 513,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:17.744Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    },
+                    {
+                      "name": "event-logs",
+                      "contentType": "application/json",
+                      "body": "ewogICJuYXRpdmUiOiAie1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJkb3duXCIsXCJwb2ludGVySWRcIjoxLFwicG9pbnRlclR5cGVcIjpcIm1vdXNlXCIsXCJidXR0b25cIjowLFwiaXNUcnVzdGVkXCI6ZmFsc2V9XG57XCJzb3VyY2VcIjpcIm5hdGl2ZVwiLFwidHlwZVwiOlwia2V5ZG93blwiLFwia2V5XCI6XCJBcnJvd1JpZ2h0XCIsXCJpc1RydXN0ZWRcIjp0cnVlfVxue1wic291cmNlXCI6XCJuYXRpdmVcIixcInR5cGVcIjpcInBvaW50ZXJjYW5jZWxcIixcInBvaW50ZXJJZFwiOjEsXCJwb2ludGVyVHlwZVwiOlwibW91c2VcIixcImJ1dHRvblwiOi0xLFwiaXNUcnVzdGVkXCI6ZmFsc2V9IiwKICAiY2FsbGJhY2tzIjogWwogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlU3RhcnQiLAogICAgICAidHlwZSI6ICJtb3Zlc3RhcnQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlIiwKICAgICAgInR5cGUiOiAibW92ZSIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJtb3VzZSIsCiAgICAgICJkZWx0YVgiOiA2MCwKICAgICAgImRlbHRhWSI6IDAsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmVTdGFydCIsCiAgICAgICJ0eXBlIjogIm1vdmVzdGFydCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJrZXlib2FyZCIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogImtleWJvYXJkIiwKICAgICAgImRlbHRhWCI6IDEsCiAgICAgICJkZWx0YVkiOiAwLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAic291cmNlIjogInVzZU1vdmUiLAogICAgICAiY2FsbGJhY2siOiAib25Nb3ZlRW5kIiwKICAgICAgInR5cGUiOiAibW92ZWVuZCIsCiAgICAgICJwb2ludGVyVHlwZSI6ICJrZXlib2FyZCIsCiAgICAgICJzaGlmdEtleSI6IGZhbHNlLAogICAgICAibWV0YUtleSI6IGZhbHNlLAogICAgICAiY3RybEtleSI6IGZhbHNlLAogICAgICAiYWx0S2V5IjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJzb3VyY2UiOiAidXNlTW92ZSIsCiAgICAgICJjYWxsYmFjayI6ICJvbk1vdmUiLAogICAgICAidHlwZSI6ICJtb3ZlIiwKICAgICAgInBvaW50ZXJUeXBlIjogIm1vdXNlIiwKICAgICAgImRlbHRhWCI6IDMwLAogICAgICAiZGVsdGFZIjogMCwKICAgICAgInNoaWZ0S2V5IjogZmFsc2UsCiAgICAgICJtZXRhS2V5IjogZmFsc2UsCiAgICAgICJjdHJsS2V5IjogZmFsc2UsCiAgICAgICJhbHRLZXkiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJwb2xpY3kiLAogICAgICAiYWN0aW9uIjogImRpc2NhcmQiLAogICAgICAicmVhc29uIjogIm5hdGl2ZSBwb2ludGVyY2FuY2VsIiwKICAgICAgInJlc3RvcmVkIjogMAogICAgfSwKICAgIHsKICAgICAgInNvdXJjZSI6ICJ1c2VNb3ZlIiwKICAgICAgImNhbGxiYWNrIjogIm9uTW92ZUVuZCIsCiAgICAgICJ0eXBlIjogIm1vdmVlbmQiLAogICAgICAicG9pbnRlclR5cGUiOiAibW91c2UiLAogICAgICAic2hpZnRLZXkiOiBmYWxzZSwKICAgICAgIm1ldGFLZXkiOiBmYWxzZSwKICAgICAgImN0cmxLZXkiOiBmYWxzZSwKICAgICAgImFsdEtleSI6IGZhbHNlCiAgICB9CiAgXQp9"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-02549a3f15fdfe165745",
+          "file": "use-move.spec.ts",
+          "line": 161,
+          "column": 1
+        },
+        {
+          "title": "Chromium protocol touchCancel produces a trusted native pointercancel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "description": "Chromium CDP-only input generation; Firefox has synthetic-event coverage.",
+                  "location": {
+                    "file": "<project-root>/tests/use-move.spec.ts",
+                    "line": 174,
+                    "column": 8
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "skipped",
+                  "duration": 181,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-05T19:35:18.268Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "Chromium CDP-only input generation; Firefox has synthetic-event coverage.",
+                      "location": {
+                        "file": "<project-root>/tests/use-move.spec.ts",
+                        "line": 174,
+                        "column": 8
+                      }
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "environment",
+                      "contentType": "application/json",
+                      "body": "eyJicm93c2VyIjoiZmlyZWZveCIsInZlcnNpb24iOiIxNTUuMCIsIm9zIjoiRGFyd2luIiwicmVsZWFzZSI6IjI1LjYuMCIsImFyY2hpdGVjdHVyZSI6ImFybTY0Iiwibm9kZSI6InYyMC4xOS4xIiwicGFja2FnZXMiOnsicmVhY3QiOiIxOS4zLjAiLCJyZWFjdC1kb20iOiIxOS4zLjAiLCJyZWFjdC1hcmlhIjoiMy41Mi4xIiwidml0ZSI6IjguMy4yIiwiQHBsYXl3cmlnaHQvdGVzdCI6IjEuNjMuMCJ9LCJjb21tYW5kIjoicG5wbSB0ZXN0Iiwic291cmNlUmV2aXNpb24iOiJTZWUgcmVwb3NpdG9yeSBzb3VyY2UgU0hBMjU2IG1hbmlmZXN0OyBjYXB0dXJlZCBiZWZvcmUgY29tbWl0LiIsIm1haW5Tb3VyY2VTaGEyNTYiOiIzMjllNjA3ZDY0YTRkNTAxYmUyYTVlYjliNjE1NzY0MWVjZDk3YmFhY2JmZmY0Zjc1MDkyNmM3NTJmNGE4MGQ4In0="
+                    }
+                  ]
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "29cc0fc8f9a882b6327b-bc768f88b0493e275fb3",
+          "file": "use-move.spec.ts",
+          "line": 173,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-05T19:34:58.385Z",
+    "duration": 20335.994,
+    "expected": 23,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

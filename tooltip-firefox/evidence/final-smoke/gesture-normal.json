@@ -1,0 +1,5595 @@
+{
+  "name": "gesture-normal",
+  "query": "?",
+  "errors": [],
+  "trials": [
+    {
+      "i": 0,
+      "leftAt": 1281,
+      "badFrames": 0,
+      "persistentFramesAfter3s": 0,
+      "firstBad": null,
+      "longHover": [
+        {
+          "placement": "top",
+          "x": 1157,
+          "y": 221,
+          "visibility": "visible",
+          "width": 112.46665954589844,
+          "height": 28,
+          "opacity": "1"
+        }
+      ],
+      "longHoverPositioned": true
+    }
+  ],
+  "diagnostics": {
+    "config": {
+      "synthetic": false,
+      "guard": false,
+      "animate": false,
+      "load": false,
+      "sweep": false,
+      "dialog": false
+    },
+    "frames": [
+      {
+        "time": 562,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 570,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 584,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 590,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 595,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 603,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 613,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 621,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 631,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 642,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 650,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 662,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 668,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 678,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 686,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 695,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 703,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 712,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 720,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 730,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 739,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 747,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 756,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 765,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 773,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 781,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 789,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 798,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 806,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 814,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 823,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 831,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 840,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 848,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 856,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 864,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 873,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 881,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 890,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 898,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 907,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 915,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 924,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 932,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 940,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 949,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 957,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 965,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 973,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 982,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 990,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 998,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1006,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1015,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1024,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1031,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1038,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1046,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1055,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1062,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1069,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1077,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1084,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1093,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1101,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1108,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1116,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1124,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1131,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1138,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1147,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1155,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1163,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1170,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1177,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1186,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1193,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1201,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1208,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1216,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1225,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1233,
+        "text": "Warmup tooltip",
+        "x": 1034.050048828125,
+        "y": 221,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 1240,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1248,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1255,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1262,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1271,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1279,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1286,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1293,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1302,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1310,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1317,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1325,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1333,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1343,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1351,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1356,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1364,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1373,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1393,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1395,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1398,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1403,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1410,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1417,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1438,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1442,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1452,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1461,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1467,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1475,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1481,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1493,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1514,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1519,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1527,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1534,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1542,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1552,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1558,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1570,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1576,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1581,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1588,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1597,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1605,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1612,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1620,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1628,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1635,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1643,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1651,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1659,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1666,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1675,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1681,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1690,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1697,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1706,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1714,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1720,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1729,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1735,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1743,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1751,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1760,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1768,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 1774,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4822,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4830,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4837,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4845,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4853,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4860,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4868,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4876,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4883,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4895,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4900,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4906,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4915,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4923,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4931,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4938,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4946,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4954,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4966,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 4989,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5006,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5014,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5021,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5029,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5037,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5045,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5058,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5065,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5073,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5080,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5088,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5096,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5104,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5113,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5120,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5128,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5136,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5143,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5151,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5159,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5167,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5174,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5183,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5190,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5199,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5206,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5213,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5222,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5229,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5237,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5245,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5253,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5260,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5268,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5276,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5284,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5292,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5300,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5308,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5316,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5323,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5331,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5339,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5347,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5355,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5363,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5370,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5379,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5386,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5394,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5402,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5410,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5417,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5425,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5433,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5440,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5449,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5455,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5464,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5472,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5480,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5487,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5500,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5507,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5516,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5523,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5531,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5539,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5546,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5555,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5562,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5570,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5578,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5586,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5593,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5602,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5609,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5617,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5641,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5660,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5668,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5676,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5684,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5691,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5699,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5714,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5721,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5729,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5737,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5745,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5753,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5760,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5769,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5776,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5784,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5792,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5800,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5808,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5815,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5823,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5832,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5839,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5847,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5855,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5863,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5871,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 5878,
+        "text": "Target tooltip",
+        "x": 1157,
+        "y": 221,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": "top",
+        "exiting": false,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      }
+    ],
+    "changes": [
+      {
+        "time": 555,
+        "name": "Warmup",
+        "isOpen": true
+      },
+      {
+        "time": 1232,
+        "name": "Warmup",
+        "isOpen": false
+      },
+      {
+        "time": 1232,
+        "name": "Target",
+        "isOpen": true
+      },
+      {
+        "time": 1781,
+        "name": "Target",
+        "isOpen": false
+      },
+      {
+        "time": 4819,
+        "name": "Target",
+        "isOpen": true
+      },
+      {
+        "time": 5881,
+        "name": "Target",
+        "isOpen": false
+      }
+    ]
+  },
+  "badFrames": 0,
+  "persistentTrials": 0,
+  "verdict": "no unpositioned visible tooltip observed in these trials",
+  "status": "completed",
+  "video": "video/page@67e8f9a26cd86b9dd367cb8b2802c5b8.webm"
+}

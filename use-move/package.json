@@ -1,0 +1,27 @@
+{
+  "name": "react-aria-use-move-cancellation-reproduction",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node scripts/run-tests.mjs",
+    "test:current": "node scripts/compare-current.mjs",
+    "test:gap": "EXPECT_CANCEL_REASON=1 node scripts/run-tests.mjs -g 'public end callbacks' --project chromium"
+  },
+  "dependencies": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-aria": "3.51.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.2"
+  }
+}

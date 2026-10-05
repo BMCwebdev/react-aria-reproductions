@@ -1,0 +1,23 @@
+// Run the identical fixture in an isolated directory; preserve baseline manifest/lock.
+import { mkdtemp, cp, readFile, writeFile, mkdir } from 'node:fs/promises';
+import { join, resolve } from 'node:path';
+import { tmpdir } from 'node:os';
+import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
+const root = fileURLToPath(new URL('..', import.meta.url));
+const comparison = await mkdtemp(join(tmpdir(), 'react-aria-tooltip-current-'));
+const output = resolve(process.env.EVIDENCE_DIR || join(root, 'evidence/current'));
+await mkdir(output, { recursive: true });
+for (const item of ['src', 'scripts', 'package.json', 'tsconfig.json', 'index.html', 'vite.config.ts']) await cp(join(root, item), join(comparison, item), { recursive: true });
+const manifest = JSON.parse(await readFile(join(comparison, 'package.json'), 'utf8'));
+Object.assign(manifest.dependencies, { react: '19.3.0', 'react-dom': '19.3.0', 'react-aria': '3.52.1', 'react-aria-components': '1.21.1' });
+await writeFile(join(comparison, 'package.json'), JSON.stringify(manifest, null, 2) + '\n');
+await writeFile(join(comparison, 'pnpm-workspace.yaml'), 'packages: []\noverrides:\n  react-aria: 3.52.1\n  react-stately: 3.50.0\n');
+const options = { cwd: comparison, stdio: 'inherit', env: { ...process.env, PORT: process.env.PORT || '4175', EVIDENCE_DIR: output } };
+console.log(`Isolated current-version fixture: ${comparison}`);
+execFileSync('pnpm', ['install', '--registry', 'https://registry.npmjs.org'], options);
+await cp(join(comparison, 'pnpm-lock.yaml'), join(output, 'pnpm-lock.yaml'));
+await cp(join(comparison, 'package.json'), join(output, 'package.json'));
+await cp(join(comparison, 'pnpm-workspace.yaml'), join(output, 'pnpm-workspace.yaml'));
+execFileSync('pnpm', ['build'], options);
+execFileSync(process.execPath, ['scripts/probe.mjs', process.argv[2] || 'firefox', process.argv[3] || 'all'], options);

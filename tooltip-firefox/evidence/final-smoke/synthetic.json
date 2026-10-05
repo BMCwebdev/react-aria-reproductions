@@ -1,0 +1,1182 @@
+{
+  "name": "synthetic",
+  "query": "?mode=synthetic",
+  "errors": [],
+  "trials": [],
+  "diagnostics": {
+    "config": {
+      "synthetic": true,
+      "guard": false,
+      "animate": false,
+      "load": false,
+      "sweep": false,
+      "dialog": false
+    },
+    "frames": [
+      {
+        "time": 362,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 363,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 363,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 363,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 367,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 367,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 375,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 375,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 383,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 383,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 391,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 391,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 399,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 399,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 420,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 420,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 425,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 425,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 433,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 433,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 441,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 441,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 450,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 450,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 458,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 458,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 467,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 467,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 475,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 476,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 484,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 484,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 491,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 491,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 499,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 499,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 508,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 508,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 517,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 517,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 525,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 525,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 533,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 533,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 542,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 542,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 549,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 549,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 557,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 557,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 566,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 566,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 575,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 575,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 583,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 583,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      },
+      {
+        "time": 591,
+        "text": "Warmup tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 127.36666870117188,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1048.0999755859375,
+          "y": 256.5333251953125,
+          "width": 98.89999389648438,
+          "height": 46
+        }
+      },
+      {
+        "time": 591,
+        "text": "Target tooltip",
+        "x": 0,
+        "y": 0,
+        "width": 112.46665954589844,
+        "height": 28,
+        "placement": null,
+        "exiting": true,
+        "entering": false,
+        "visibility": "visible",
+        "opacity": "1",
+        "visible": true,
+        "trigger": {
+          "x": 1171,
+          "y": 256.5333251953125,
+          "width": 84,
+          "height": 46
+        }
+      }
+    ],
+    "changes": []
+  },
+  "verdict": "synthetic fixture visible without placement (not a real gesture reproduction)",
+  "status": "completed",
+  "video": "video/page@d360030a1bcd8b39ea5db73f024b9a92.webm"
+}

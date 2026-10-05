@@ -1,0 +1,58 @@
+name: Verify and publish reproductions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.3.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.22.3
+      - name: Install pinned public dependencies
+        run: |
+          pnpm --dir tooltip-firefox install --frozen-lockfile
+          pnpm --dir use-move install --frozen-lockfile
+      - name: Install browser test engines
+        run: pnpm --dir use-move exec playwright install --with-deps chromium firefox
+      - name: Verify useMove reproduction
+        run: pnpm --dir use-move test
+      - name: Verify tooltip reproduction
+        run: pnpm --dir tooltip-firefox test
+      - name: Build standalone pages
+        env:
+          SITE_BASE: /${{ github.event.repository.name }}/
+        run: node scripts/build-site.mjs
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

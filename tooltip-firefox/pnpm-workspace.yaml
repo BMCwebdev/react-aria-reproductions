@@ -1,0 +1,4 @@
+packages: []
+overrides:
+  react-aria: 3.51.0
+  react-stately: 3.49.0
